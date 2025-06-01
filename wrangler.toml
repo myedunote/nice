@@ -6,7 +6,7 @@ compatibility_date = "2025-06-01" # 或更新的日期
 # 您需要在 Cloudflare Dashboard 中创建一个 KV Namespace (例如命名为 "SECRETS_KV")
 # 然后将其 id 和 preview_id 填入下方
 kv_namespaces = [
-  { binding = "img_url", id = "code", preview_id = "MrLee" }
+  { binding = "code", id = "code", preview_id = "MrLee" }
 ]
 
 # [vars]
