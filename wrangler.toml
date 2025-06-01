@@ -1,0 +1,14 @@
+name = "code" # 您的Worker名称，需Cloudflare账户中唯一
+main = "src/index.js"
+compatibility_date = "2025-06-01" # 或更新的日期
+
+# KV Namespace 绑定
+# 您需要在 Cloudflare Dashboard 中创建一个 KV Namespace (例如命名为 "SECRETS_KV")
+# 然后将其 id 和 preview_id 填入下方
+kv_namespaces = [
+  { binding = "img_url", id = "code", preview_id = "MrLee" }
+]
+
+# [vars]
+# 如果您有其他需要环境变量配置的项，可以在此添加
+
