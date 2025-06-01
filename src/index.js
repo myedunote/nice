@@ -10,7 +10,7 @@ app.use('/api/*', cors({
     // 允许来自 localhost (不同端口) 和您指定的生产域名的请求
     const allowedOrigins = [
       'http://localhost:5173', // Vite 默认开发端口
-      'http://127.0.0.1:5173',
+      'https://code.sqlsec.workers.dev',
       // 在这里添加您的生产环境前端域名
       // 例如: 'https://your-app-domain.com'
     ];
